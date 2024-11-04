@@ -9,7 +9,7 @@
   display: flex;  
   justify-content: start;
   gap: 31px;
-  margin: 44px 0 0 27px;
+  margin: 44px 0 0 26px;
   align-items: start;
 }
 
@@ -53,6 +53,73 @@
 }
 
 .header__address {
-  padding-left: 1px;
   line-height: 1.35;
+}
+
+.cover {
+  position: relative;
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background-color: rgb(0 0 0/0.5);
+}
+
+.cover__title {
+  position: relative;
+  padding: 165px 0 0 50px;
+}
+
+.aligned-text {
+  font-size: 100px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  display: block;
+  letter-spacing: .58ex;
+}
+
+.aligned-text_center {
+  padding-top: 10px;
+  padding-left: 286px;
+}
+
+.aligned-text_right {
+  padding-top: 1px;
+  padding-left: 583px;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 1.15ex;
+}
+
+.cover__description {
+  position: relative;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+  padding: 127px 50px 50px 78px;
+}
+
+.cover__description-text {
+  text-transform: uppercase;
+  font-size: 22px;
+  word-spacing: 18px;
+  line-height: 28px;
+}
+
+.bet-button {
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #FFFFFF;
+  background: transparent;
+  border-color: #FFFFFF;
+  padding: 12px 32px 11px 31px;
 }
