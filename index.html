@@ -11,15 +11,24 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__menu">
+      <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="header__links-list-item_no-bullit"><a class="header__link_active" href="#0">главная</a></li>
-          <li class="header__links-list-item"><a class="header__link" href="#0">посмотреть лоты</a></li>
-          <li class="header__links-list-item"><a class="header__link" href="#0">об аукционе</a></li>
+          <li class="header__links-list-item_no-bullit">
+            <a class="header__link_active" href="#0">главная</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#0">посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#0">об аукционе</a>
+          </li>
         </ul>
-      </div>
+      </nav>
       <a class="header__logo">
-        <img class="header__logo-image" src="images/logo-black.svg" alt="" />
+        <img 
+          class="header__logo-image" 
+          src="images/logo-black.svg" 
+          alt="" />
       </a>
       <address class="address">
         <a class="header__link" href="+9 999 555 5555">+9 999 555 5555</a>
@@ -28,20 +37,28 @@
       </address>
     </header>
     <main>
-      <div class="cover">
+      <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
-          <span class="aligned-text">О<span class="letter-spacing-extended">но</span>
-          </span><span class="aligned-text aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
-          <span class="aligned-text aligned-text_right"><span class="letter-spacing-extended">н</span>адо</span>            
+          <span class="aligned-text">
+            О<span class="letter-spacing-extended">но</span>
+          </span>
+          <span class="aligned-text aligned-text_center">
+            те<span class="letter-spacing-extended">бе</span>
+          </span>
+          <span class="aligned-text aligned-text_right">
+            <span class="letter-spacing-extended">н</span>адо
+          </span>            
         </h1>
         <div class="cover__description">
-          <span class="cover__description-text">Аукцион вещей, в которые никто не верил</span>
+          <p class="cover__description-text">
+            Аукцион вещей, в которые никто <span>не верил</span>
+          </p>
           <input type="button" class="bet-button" value="Сделать ставку">
         </div>
-      </div>
-      <div class="lots"></div>
-      <div class="about"></div>
+      </section>
+      <seection class="lots"></seection>
+      <section class="about"></section>
     </main>
     <footer class="header"></footer>
   </body>
