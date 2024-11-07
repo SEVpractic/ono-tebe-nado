@@ -58,7 +58,6 @@
 
 .cover {
   position: relative;
-  display: block;
   margin: auto;
   background-image: url("../images/cover.jpg");
   background-size: cover;
@@ -131,12 +130,10 @@
 }
 
 .lots {
-  display: block;
   margin: 180px 24px 0 24px;
 }
 
 .lots__heading {
-  display: block;
   padding-left: 40px;
   font-size: 40px;
   text-transform: uppercase;
@@ -159,7 +156,6 @@
 }
 
 .card-link {
-  display: block;
   height: 100%;
   color: white;
   text-decoration: none;
